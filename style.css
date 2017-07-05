@@ -1,0 +1,441 @@
+/*******************************************************************************************/
+/* File name: style.css
+/* For: Yerpstr Assignment
+/* By: Adriana Devera
+/*******************************************************************************************/
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+ul {
+	list-style: none;
+}
+a {
+	display: block;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+button{
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	}
+a, a:hover, a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	font-family: "open_sansregular";
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 45px;
+	color: #464646;
+	background: #FDE3BD;
+}
+
+
+.clear {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+/*Creating different types of fonts and sizes*/
+h1 {
+	clear: both;
+	color: #cc0000;
+	font-family: 'open_sansregular';
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 0;
+}
+
+h2 {
+	color: #cc0000;
+	font-family: 'open_sansregular';
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 0;
+	padding: 10px 0;
+	width: 100%;
+}
+
+h3 {
+	font-family: 'open_sansregular';
+	color: #a07500;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 20px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-family: 'open_sansregular';
+	color: #464646;
+	font-size: 16pxpx;
+	line-height: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+h5 {
+	font-family: 'open_sansregular';
+	color: #4a5567;
+	font-size: 18px;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+
+h6 {
+	font-family: 'open_sansregular';
+	color: #515151;
+	font-size: 14px;
+	line-height: 14px;
+	padding-bottom: 5px;
+}
+.relative {
+	position: relative;
+}
+.radius2 {
+-moz- border-radius:2px;
+-ms- border-radius:2px;
+-o- border-radius:2px;
+-webkit- border-radius:2px;
+	border-radius: 2px;
+}
+.radius3 {
+-moz- border-radius:3px;
+-ms- border-radius:3px;
+-o- border-radius:3px;
+-webkit- border-radius:3px;
+	border-radius: 3px;
+}
+.radius5 {
+-moz- border-radius:5px;
+-ms- border-radius:5px;
+-o- border-radius:5px;
+-webkit- border-radius:5px;
+	border-radius: 5px;
+}
+.pad_15-0 {
+	padding: 15px 0;
+}
+.pad_20 {
+	padding: 20px;
+}
+.m-t-30 {
+	margin-top: 30px !important;
+}
+.m-t-20 {
+	margin-top: 20px !important;
+}
+.m-t-10 {
+	margin-top: 10px !important;
+}
+.m-t-15 {
+	margin-top: 15px !important;
+}
+.m-t-5 {
+	margin-top: 5px !important;
+}
+
+.imageBox .imageBox.radius3:hover {
+	border-color: #828a99;
+	-moz-box-shadow: 0 0 8px 1px #F93;
+	-ms-box-shadow: 0 0 7px 1px #F93;
+	-o-box-shadow: 0 0 7px 1px #F93;
+	-webkit-box-shadow: 0 0 7px 1px #F93;
+	box-shadow: 0 0 7px 1px #F93;
+}
+
+header {
+	float: left;
+	width: 100%;
+	background: #F90;
+	position: relative;
+	z-index: 5
+}
+section, .full {
+	float: left;
+	width: 100%;
+}
+.main-header{
+	padding:0 15px;}
+.logo {
+	float: left;
+	padding-right: 100px;
+	width: auto;
+}
+.logo a {
+	padding: 12px 0;
+}
+.imageBox img {
+	width: 100%;
+}
+.userArea {
+	padding: 0 23px;
+}
+
+.box {
+	border: #e5e5e5 1px solid;
+}
+.box .imageBox {
+	position:relative;
+}
+
+.box p {
+	padding: 10px 15px;
+	line-height: 18px;
+	float: left;
+	width: 100%;
+	font-family: 'open_sanssemibold';
+	color:#545454;
+	font-size: 12px;
+}
+.tabArea {
+	padding: 20px 0 0;
+}
+.tabArea .row {
+	margin: 0 -10px;
+}
+
+.imageBox .imageBox {
+	border: #e5e5e5 1px solid;
+}
+.imageBox h5 {
+	font-size: 13px;
+	font-weight: normal;
+	color: #4a4a4a;
+	text-align: center;
+	padding: 10px 0;
+}
+.imageBox span {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+/*Creating the style for every option or service at the design*/
+/*Option 1*/
+.imageBox .Barnpassning {
+	background: url(imagesPNG/category_babysitting_gray.png) 0 0 no-repeat
+}
+.imageBox:hover .Barnpassning {
+	background: url(imagesPNG/category_babysitting.png)
+}
+/*Option 2*/
+.imageBox .Husdjur  {
+	background: url(imagesPNG/category_dog-walking-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .Husdjur {
+	background: url(imagesPNG/category_dog-walking.png) 0 0 no-repeat
+}
+/*Option 3*/
+.imageBox .Festhjalp {
+	background: url(imagesPNG/category_event-helper-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .Festhjalp {
+	background: url(imagesPNG/category_event-helper.png) 0 0 no-repeat
+}
+/*Option 4*/
+.imageBox .Tradgard {
+	background: url(imagesPNG/category_gardening-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .Tradgard {
+	background: url(imagesPNG/category_gardening.png) 0 0 no-repeat
+}
+/*Option 5*/
+.imageBox .Lazhjalp {
+	background: url(imagesPNG/category_homework-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .Lazhjalp {
+	background: url(imagesPNG/category_homework.png) 0 0 no-repeat
+}
+/*Option 6*/
+.imageBox .photography {
+	background: url(imagesPNG/category_it-support-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .photography {
+	background: url(imagesPNG/category_it-support.png) 0 0 no-repeat
+}
+/*Option 7*/
+.imageBox .ovrigt {
+	background: url(imagesPNG/category_misc-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .ovrigt {
+	background: url(imagesPNG/category_misc.png) 0 0 no-repeat
+}
+/*Option 8*/
+.imageBox .Malaochbygg {
+	background: url(imagesPNG/category_painting-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .Malaochbygg {
+	background: url(imagesPNG/category_painting.png) 0 0 no-repeat
+}
+/*Option 9*/
+.imageBox .sportochmusik {
+	background: url(imagesPNG/category_sport-music-lessons-gray.png) 0 0 no-repeat
+}
+.imageBox:hover .sportochmusik {
+	background: url(imagesPNG/category_sport-music-lessons.png) 0 0 no-repeat
+}
+/*End of options or categories*/
+
+.imageBox h6 {
+	font-size: 12px;
+	color: #7b7b7b;
+	font-family: 'open_sanssemibold';
+	text-align: center;
+	padding: 5px 0 0;
+}
+.imageBox:hover h6 {
+	color: #4a5567;
+}
+.whiteBg {
+	background: #ffffff;
+}
+/*Here starts the white box or container for the options, including the name*/
+.whiteBox {
+	margin: 80px auto 436px;
+	width: 100%;
+	max-width: 438px;
+	display: table;
+	padding: 12px 12px 28px; /*it was 22px 22px 28px*/
+}
+
+.whiteBox.yeppataby { /*here i can fix the white container box and change sizes*/
+	max-width: 550px;
+	
+}
+.whiteBox .iconBox {
+	padding-top: 18px;
+}
+.whiteBg {
+	background: #ffffff
+}
+.upperCase {
+	text-transform: uppercase !important
+}
+.whiteBox h4 {
+	font-size: 18px;
+	font-family: 'open_sanssemibold';
+	color: #4a4a4a;
+	text-align: center;
+	margin-top: 38px;
+	float: left;
+	width: 100%
+}
+.whiteBox p {
+	font-size: 14px;
+	color: #5c5c5c;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+	width: 100%
+}
+.m-t {
+	margin-top: 40px;
+}
+.whiteBoxBottom label {
+	color: #5f6061;
+	font-family: 'open_sanssemibold';
+	margin-bottom: 3px;
+}
+.whiteBoxBottom .form-control {
+	border: #d8d8d8 1px solid;
+	height: 38px;
+}
+/*Buttons*/
+.orangeFull {
+	width: 100%;
+	background: #F90;
+	padding: 10px 12px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: 'open_sansbold';
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+/*This is the hover that is reflected each time a user puts the mouse cursor over a category*/
+
+.orangeFull:hover {
+	background: #F60;
+	color: #fff;
+}
+.whiteBox h3 {
+	color: #4a4a4a;
+	font-size: 18px;
+	font-family: 'open_sanssemibold';
+}
+
+.m-b30 {
+	margin-bottom: 30px;
+}
+.marginTop10 {
+	margin-top: 10px;
+}
+
+.box-5{
+	float:left;
+	width:20%;
+	padding:15px 10px;
+	}
+.box-5 .imageBox h5 {
+    color: #636363;
+    font-size: 13px;
+    padding: 10px 0;
+    text-align: center;
+	font-family: "open_sanssemibold";
+}	
+
+.p-b-10{
+	padding-bottom:10px;
+	}
+.p-b-5{
+	padding-bottom:5px !important;
+	}
+.p-t-10{
+	padding-top:10px;
+	}															
+.p-t-5{
+	padding-top:5px;
+	}
+
+         
+
+
+
+					
+	

@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width:1600px) {
+.leftPannelArea {
+    width: 195px;
+}
+
+}
+
+
+@media only screen and (max-width:1366px) {
+.togBtn ,
+.togBtn2 {
+	display:block;
+}
+.rightPannelArea {
+    right: -195px;
+}
+
+.leftPannelArea {
+    left: -195px;
+}
+
+.leftPannelArea.leftPannelAreaOpen {
+    left: 0;
+}
+
+.rightPannelArea.rightPannelAreaOpen{
+	right: 0;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:1280px) {
+
+	}
+
+
+
+
+
+@media only screen and (max-width:1135px) {}
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+	}
+
+
+
+
+@media only screen and (max-width:1000px) {
+.user_grid_viwe {
+    width: 25%;
+}	
+.folder_grid_viwe {
+    width: 30%;
+}
+	}
+
+
+
+
+@media only screen and (max-width:900px) {
+.box-5{
+	width:33.33333%;
+	}
+.folder_grid_viwe {
+    width: 33.333%;
+}		
+	
+	}
+
+
+
+@media only screen and (max-width:880px) {
+.bodyContainner {
+	padding:50px 20px;
+	}
+.header-inner
+{ padding:0px 20px}
+.navbar-custom-menu .dropdown-menu{
+	position:absolute !important;
+	background:#fff !important;
+	width:250px !important;
+	}
+.search {
+    max-width: 311px;
+}
+.logo {
+    padding-right: 62px;
+}
+
+.user_grid_viwe {
+    width: 33.3333333%;
+}	
+	
+		
+	}
+
+
+
+
+@media only screen and (max-width:768px) {
+
+.navbar-custom-menu .nav.navbar-nav li{
+	float:left;
+	width:auto}
+.navbar-custom-menu .dropdown-toggle {
+    padding: 6px 8px;
+}
+
+.bodyContainner .leftPannel {
+    display: block;
+    float: left;
+    width: 100%;
+}	
+
+.bodyContainner .rightPannel {
+    display: block;
+    float: left;
+    margin-top: 15px;
+    padding: 0;
+    width: 100%;
+}
+
+.stepArea ul li {
+    margin: 0 10px;
+}
+				
+	}
+@media only screen and (max-width:767px) {
+
+	
+	}
+
+
+@media only screen and (max-width:736px) {
+.modal-450 {
+    max-width: 100%;
+}	
+	
+	}
+
+
+
+@media only screen and (max-width:667px) {
+.search {
+    max-width: 268px;
+}
+.logo {
+    padding-right: 35px;
+}	
+.navigationRight {
+    position: absolute;
+    top: -41px;
+    width: auto;
+	left:0
+	}
+.navigationRight a {
+    color: #fff;
+}
+
+.folder_grid_viwe p span {
+    padding: 12px 5px;
+}	
+.folder_grid_viwe p span img{
+	width:100%;
+	}	
+	
+	}
+
+
+
+
+@media only screen and (max-width:600px) {
+.stepArea ul li a {
+	font-size:10px;
+	}
+
+}
+
+
+@media only screen and (max-width:568px) {
+.modal.in .modal-dialog {
+    transform: translate(0px, 3%);
+}
+.navigation {
+    float: left;
+    width: 100%;
+}
+.navigation ul li {
+    padding: 0;
+}
+.navigation ul li.active a, .navigation ul li:hover a {
+    box-shadow: none;
+}
+
+nav {
+	-moz-box-shadow: 0 0 0 1px #5b6678;
+	-ms-box-shadow: 0 0 0 1px #5b6678;
+	-o-box-shadow: 0 0 0 1px #5b6678;
+	-webkit-box-shadow: 0 0 0 1px #5b6678;
+    box-shadow: 0 0 0 1px #5b6678;
+}
+.user_grid_viwe {
+    width: 50%;
+}
+.advancingPannelInner.mT30{
+	margin-top:85px;
+	}
+		
+	}
+
+
+
+@media only screen and (max-width:480px) {
+.agileInfoways-wrapper {
+    padding: 0 20px 0 30px;
+}
+.agileInfoways-wrapper::before {
+    left: 13px;
+}
+.navbar-nav {
+    margin: 7.5px 0;
+}
+.stepArea ul li a span {
+    display: block;
+    float: none;
+	margin:0 auto;
+}
+}
+
+@media only screen and (max-width:414px) {
+.search {
+    max-width: 236px;
+}
+.logo {
+    padding-right: 8px;
+}
+.box-5{
+	width:50%;
+	}
+.user_grid_viwe {
+    width: 100%;
+}
+.folder_grid_viwe {
+    width: 100%;
+}		
+	}
+
+
+@media only screen and (max-width:384px) {
+
+.col-md-4.col-sm-6.col-xs-6{
+	width:100%;}
+.cvUploader {
+    padding: 0 20px 20px;
+}
+footer .col-md-4.col-sm-4.col-xs-6{
+	width:100%}
+.search {
+    max-width: 212px;
+}
+.stepArea ul li {
+    margin: 0 5px;
+	line-height: 13px;
+}
+	}
+
+
+@media only screen and (max-width:375px) {
+.search {
+    max-width: 200px;
+}
+	}
+
+
+
+@media only screen and (max-width:320px) {
+	
+body{
+	overflow-x:hidden}	
+/*.row{
+	margin:0px ;
+	}
+.tabArea .col-md-4.col-sm-6.col-xs-6{
+	padding:0 15px;
+}*/
+.search {
+    max-width: 100%;
+}
+
+.innerLogo{
+	max-width:110px;
+	width:100%;
+	padding-right:0
+	}
+
+.innerLogo img{
+	width:100%;
+	height:auto
+	}
+.rightHeader{
+	padding-left:0;}
+	.followus ul li {
+    float: left;
+    line-height: 30px;
+    margin-right: 6px;
+    text-align: center;
+    width: 30px;
+}
+
+.header-inner {
+    padding: 0 8px;
+}
+.navbar-custom-menu {
+    position: absolute;
+    right: 6px;
+}
+.search {
+    margin: 0 0 10px;
+}
+.navbar-custom-menu .dropdown-toggle {
+    padding: 6px 5px;
+}	
+}
+
+@media only screen and (max-width:240px) {}
+
+
