@@ -242,7 +242,7 @@ section, .full {
 /*Creating the style for every option or service at the design*/
 /*Option 1*/
 .imageBox .Barnpassning {
-	background: url(imagesPNG/category_babysitting_gray.png) 0 0 no-repeat
+	background: url(IconsForWeb/injection.svg) 0 0 no-repeat
 }
 .imageBox:hover .Barnpassning {
 	background: url(imagesPNG/category_babysitting.png)
